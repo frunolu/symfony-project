@@ -1,5 +1,5 @@
 function myFunction(value) {
-    const url = "http://localhost:8007/ajax/save_form.php"
+    const url = "http://localhost:8004/ajax/save_form.php"
 
     let form = new FormData();
     form.append('username', value);
@@ -19,7 +19,7 @@ function myFunction(value) {
 }
 
 function myFunctionOld(value) {
-    const url = "http://localhost:8005/ajax/save_form.php"
+    const url = "http://localhost:8004/ajax/save_form.php"
 
     let xhr = new XMLHttpRequest()
 
